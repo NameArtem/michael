@@ -5,10 +5,18 @@ Supports frequentist and Bayesian A/B tests as well as multi-armed bandits. See 
 
 ## Installation
 
+To install for the first time:
+
 ```
 git clone https://bitbucket.org/centralonline/michael/
 cd michael
 python setup.py install
+```
+
+To upgrade:
+```
+cd michael
+git pull
 ```
 
 ## To-dos

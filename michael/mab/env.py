@@ -1,10 +1,7 @@
 import numpy as np
 import pandas as pd
 
-#relative import fix
-import sys
-sys.path.append('../')
-from bayesian.proportions import value_remaining
+from michael.bayesian.proportions import value_remaining
 
 __all__ = ['Arm','MusketeerEnv']
 

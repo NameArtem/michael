@@ -10,7 +10,8 @@ To install for the first time:
 ```
 git clone https://bitbucket.org/centralonline/michael/
 cd michael
-python setup.py install
+pip install . #normal
+pip install -e . #dev
 ```
 
 To upgrade:

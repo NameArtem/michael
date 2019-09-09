@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
    name='michael',
@@ -6,6 +6,6 @@ setup(
    description='A/B testing and multi-armed bandit made easy',
    author='Charin Polpanumas',
    author_email='charin@central.tech',
-   packages=['michael'],  #same as name
+   packages=find_packages(),  #same as name
    install_requires=['plotnine','numpy','pandas'], #external packages as dependencies
 )

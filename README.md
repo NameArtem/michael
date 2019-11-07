@@ -8,7 +8,7 @@ Supports frequentist and Bayesian A/B tests as well as multi-armed bandits. See 
 To install for the first time:
 
 ```
-git clone https://bitbucket.org/centralonline/michael/
+git clone https://github.com/cstorm125/michael.git
 cd michael
 pip install . #normal
 pip install -e . #dev
